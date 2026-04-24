@@ -1,28 +1,28 @@
-x = "the yellow man"
+x = "pink"
 z = 5
 y = 3
-def runTheRabbitroute():
+def firstFunction():
     global z 
     z = 2
     if z > y:
-        print("The orphange didn't know how to overcome his fear")
+        print("yellow")
     else:
         print("I guess he was wrong", end = " ")
         print(x)
 
-def iHaveaDreamToChase():
+def secondFunction():
     for i in range(3):
-        print("I have a dream to chase!")
-        print("dont stop until you win")
-        print("I am the best in the world")
+        print("red is the color of the day")
+        print("blue is the new gold")
+        print("purple is the same")
     if z > y:
-        print("I was born to conquer the world")
+        print("white")
     else:
-        print("Bereket Hagos stands alone at the top")
+        print("orange is the new black")
 
 
-runTheRabbitroute()
-iHaveaDreamToChase()
+firstFunction()
+secondFunction()
 
 
 
