@@ -4,7 +4,7 @@ movies = [
     {"title" : "Fire Fight", "genre" : "action", "rating" : 4}
 ]
 for movie in movies:
-    print(movie["title"], movie["rating"])
+    print(f"{movie['title']} is a {movie['genre']} movie with a rating of {movie['rating']}")
 movies.append({"title": "Freakish", "genre" : "horror", "rating" : 8})
 highest = movies[0]
 for movie in movies:
